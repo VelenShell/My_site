@@ -113,7 +113,7 @@ body {
 
   cursor: hand;
   cursor: pointer;
-  border-left: 10px solid #EB701B;
+  border-left: 10px solid #1E3D33;
 }
 
 
@@ -122,8 +122,8 @@ body {
 #tab-three:checked ~ .tabs #tab-three-label,
 #tab-four:checked ~ .tabs #tab-four-label {
 
-  cursor: no-drop;
-  border-left-color: #69be28;
+  cursor: unset;
+  border-left-color: #008000;
 }
 
 #tab-one:checked ~ .tabs #tab-one-panel,
@@ -232,7 +232,7 @@ a {
   padding: 2px 16px;
   height: 280px;
   width: 200px;
-  margin: 15px;
+  margin: 20px;
 }
 .skill-text {
  text-align: center;
