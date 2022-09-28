@@ -5,6 +5,17 @@ body {
       background-attachment: fixed;
       position: relative;
     }
+    @media screen and (max-width 480px) {
+      body {
+        position: static;
+      }
+    }
+    @media screen and (max-width 768px) {
+      body {
+        position: static;
+      }
+    }
+
     .greting {
       padding-left: 180px;
       font-family: Copperplate, Papyrus, fantasy;
@@ -13,6 +24,20 @@ body {
       min-height: 80vh;
       display: flex;
     }
+    @media screen and (max-width: 480px) {
+     .greting {
+      padding: 5px 50px;
+      min-height: unset;
+     }
+    }
+    @media screen and (max-width: 768px){
+     .greting {
+      padding: 170px 50px;
+      block-size: 800px 300px;
+      min-height: unset;
+     }
+    }
+
     .text-big {
       margin-top: 2px;
       margin-bottom: 2px;
