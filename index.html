@@ -1,479 +1,443 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Uliana-Olena Sakhno — Data & Backend QA Engineer specializing in SQL, ETL & data-migration validation, API testing and AI-assisted QA">
-  <title>Uliana-Olena Sakhno | Data & Backend QA Engineer</title>
-  
-  <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
-  <link rel="manifest" href="site.webmanifest">
-  
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
-  
-  <link rel="stylesheet" href="app.css">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Uliana-Olena Sakhno — AI Quality Engineer: LLM agents, evals and guardrails, with 6+ years of QA in data, security and healthcare">
+<title>Uliana-Olena Sakhno | AI Quality Engineer</title>
+
+<link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+<link rel="manifest" href="site.webmanifest">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="app.css">
 </head>
 <body>
-  <!-- Decorative Elements -->
-  <div class="bg-grid"></div>
-  <div class="bg-glow bg-glow--1"></div>
-  <div class="bg-glow bg-glow--2"></div>
+<!-- Decorative Elements -->
+<div class="bg-grid"></div>
+<div class="bg-glow bg-glow--1"></div>
+<div class="bg-glow bg-glow--2"></div>
 
-  <!-- Navigation -->
-  <header class="header">
-    <nav class="nav">
-      <a href="/" class="nav__logo">
-        <span class="logo-bracket">&lt;</span>US<span class="logo-bracket">/&gt;</span>
-      </a>
-      
-      <ul class="nav__links">
-        <li><a href="#about">About</a></li>
-        <li><a href="#skills">Skills</a></li>
-        <li><a href="#experience">Experience</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-      
-      <a href="/CV_Sakhno_QA.pdf" class="btn btn--outline" target="_blank" rel="noopener">
-        <span class="btn__icon">↓</span> Resume
-      </a>
-    </nav>
-  </header>
+<!-- Navigation -->
+<header class="header">
+<nav class="nav">
+<a href="/" class="nav__logo">
+<span class="logo-bracket">&lt;</span>US<span class="logo-bracket">/&gt;</span>
+</a>
 
-  <main>
-    <!-- Hero Section -->
-    <section class="hero">
-      <div class="hero__container">
-        <div class="hero__content">
-          <p class="hero__label">
-            <span class="status-dot"></span>
-            Open to opportunities
-          </p>
-          <h1 class="hero__title">
-            Hi, I'm <span class="text-gradient">Uliana-Olena</span>
-          </h1>
-          <p class="hero__subtitle">
-            Data &amp; Backend QA Engineer who breaks things <em>before</em> users do.
-          </p>
-          <p class="hero__description">
-            6 years making data-heavy and backend systems trustworthy — across cybersecurity,
-            healthcare, and large-scale data migrations. I work in an AI-augmented way:
-            design the validation logic, let AI implement it fast, and verify it myself.
-          </p>
-          <div class="hero__cta">
-            <a href="#contact" class="btn btn--primary">Let's Talk</a>
-            <a href="#experience" class="btn btn--ghost">See My Work →</a>
-          </div>
-        </div>
-        
-        <div class="hero__visual">
-          <div class="terminal">
-            <div class="terminal__header">
-              <span class="terminal__dot terminal__dot--red"></span>
-              <span class="terminal__dot terminal__dot--yellow"></span>
-              <span class="terminal__dot terminal__dot--green"></span>
-              <span class="terminal__title">quality_check.sh</span>
-            </div>
-            <div class="terminal__body">
-              <p><span class="terminal__prompt">$</span> running test suite...</p>
-              <p class="terminal__success">✓ API integration tests passed</p>
-              <p class="terminal__success">✓ Source ↔ target data matched</p>
-              <p class="terminal__success">✓ 200+ tables migration verified</p>
-              <p class="terminal__success">✓ 0 data discrepancies left open</p>
-              <p><span class="terminal__prompt">$</span> <span class="terminal__cursor">_</span></p>
-            </div>
-          </div>
-        </div>
-      </div>
-      
-      <div class="hero__flag">
-        <a href="https://savelife.in.ua/en/" target="_blank" rel="noopener" title="Support Ukraine">
-          <img src="flag.png" alt="Ukraine" height="80">
-        </a>
-      </div>
-    </section>
+<ul class="nav__links">
+<li><a href="#about">About</a></li>
+<li><a href="#skills">Skills</a></li>
+<li><a href="#experience">Experience</a></li>
+<li><a href="#projects">Projects</a></li>
+<li><a href="#contact">Contact</a></li>
+</ul>
 
-    <!-- About Section -->
-    <section id="about" class="section">
-      <div class="container">
-        <div class="about">
-          <div class="about__image">
-            <div class="about__image-wrapper">
-              <img src="avatar.jpg" alt="Uliana-Olena Sakhno">
-              <div class="about__image-border"></div>
-            </div>
-          </div>
-          
-          <div class="about__content">
-            <h2 class="section__label">About Me</h2>
-            <h3 class="about__title">Quality is not an act, it's a habit.</h3>
-            <p>
-              I'm a QA Engineer who sees testing as detective work — but my crime scene is the data.
-              I make sure it stays accurate and consistent as it moves: source-to-target migration
-              testing, schema-mapping analysis, and multi-database root-cause analysis.
-            </p>
-            <p>
-              My playground? Backend systems, API integrations, and complex data flows across
-              cybersecurity, healthcare, and large-scale migrations — industries where
-              "it works on my machine" isn't good enough.
-            </p>
-            <p>
-              I lean on AI to move faster, but I design the logic and verify every result myself —
-              knowing where the model is wrong is the actual engineering. Bachelor's in Automation
-              from Lviv Polytechnic; currently extending into Python test automation.
-            </p>
-            <div class="about__stats">
-              <div class="stat">
-                <span class="stat__number">6</span>
-                <span class="stat__label">Years Experience</span>
-              </div>
-              <div class="stat">
-                <span class="stat__number">7+</span>
-                <span class="stat__label">Databases</span>
-              </div>
-              <div class="stat">
-                <span class="stat__number">200+</span>
-                <span class="stat__label">Tables Migrated</span>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
+<a href="/CV_Sakhno_AI_Quality_Engineer.pdf" class="btn btn--outline" target="_blank" rel="noopener">
+<span class="btn__icon">↓</span> Resume
+</a>
+</nav>
+</header>
 
-    <!-- Skills Section -->
-    <section id="skills" class="section section--alt">
-      <div class="container">
-        <h2 class="section__label section__label--center">Skills & Tools</h2>
-        <h3 class="section__title">My Testing Arsenal</h3>
-        
-        <div class="skills-grid">
-          <div class="skill-card">
-            <div class="skill-card__icon">🔍</div>
-            <h4 class="skill-card__title">Quality Control</h4>
-            <ul class="skill-card__list">
-              <li>Test Design & Execution</li>
-              <li>Requirement Analysis</li>
-              <li>Defect Management</li>
-              <li>AI-Assisted QA Workflows</li>
-            </ul>
-          </div>
-          
-          <div class="skill-card">
-            <div class="skill-card__icon">🔌</div>
-            <h4 class="skill-card__title">API & Data</h4>
-            <ul class="skill-card__list">
-              <li>Postman & Fiddler</li>
-              <li>REST API Testing</li>
-              <li>Source-to-Target Validation</li>
-              <li>Data Migration & ETL Testing</li>
-              <li>Log Analysis & Root-Cause</li>
-            </ul>
-          </div>
-          
-          <div class="skill-card">
-            <div class="skill-card__icon">🗄️</div>
-            <h4 class="skill-card__title">Databases</h4>
-            <ul class="skill-card__list">
-              <li>PostgreSQL & SQL Server</li>
-              <li>MongoDB & Redis</li>
-              <li>BigQuery & Snowflake</li>
-              <li>Elasticsearch</li>
-            </ul>
-          </div>
-          
-          <div class="skill-card">
-            <div class="skill-card__icon">🛠️</div>
-            <h4 class="skill-card__title">Tools & Platforms</h4>
-            <ul class="skill-card__list">
-              <li>Jira & TestRail</li>
-              <li>Xcode & Android Studio</li>
-              <li>BrowserStack & VMware</li>
-              <li>Chrome DevTools</li>
-            </ul>
-          </div>
-        </div>
-        
-        <div class="skills-tags">
-          <span class="tag tag--highlight">SQL</span>
-          <span class="tag tag--highlight">Python</span>
-          <span class="tag">Agile</span>
-          <span class="tag">SCRUM</span>
-          <span class="tag">Kanban</span>
-          <span class="tag">Figma</span>
-          <span class="tag">Slack</span>
-          <span class="tag">Teams</span>
-          <span class="tag tag--highlight">English: Advanced</span>
-          <span class="tag tag--highlight">Ukrainian: Native</span>
-        </div>
-      </div>
-    </section>
+<main>
+<!-- Hero Section -->
+<section class="hero">
+<div class="hero__container">
+<div class="hero__content">
+<p class="hero__label">
+<span class="status-dot"></span>
+Open to remote roles
+</p>
+<h1 class="hero__title">
+Hi, I'm <span class="text-gradient">Uliana-Olena</span>
+</h1>
+<p class="hero__subtitle">
+AI Quality Engineer who finds where AI is wrong <em>before</em> users do.
+</p>
+<p class="hero__description">
+I build and validate LLM agents in production: evals, PHI/PII guardrails and agentic data
+pipelines on Claude. Behind that are 6 years of QA across cybersecurity, healthcare and
+large data migrations — so I know how systems fail, and I verify AI output instead of trusting it.
+</p>
+<div class="hero__cta">
+<a href="#contact" class="btn btn--primary">Let's Talk</a>
+<a href="#experience" class="btn btn--ghost">See My Work →</a>
+</div>
+</div>
 
-    <!-- Experience Section -->
-    <section id="experience" class="section">
-      <div class="container">
-        <h2 class="section__label section__label--center">Experience</h2>
-        <h3 class="section__title">Where I've Made Impact</h3>
-        
-        <div class="timeline">
-          <div class="timeline__item">
-            <div class="timeline__marker"></div>
-            <div class="timeline__content">
-              <div class="timeline__header">
-                <div>
-                  <span class="timeline__company">Agiliway</span>
-                  <span class="timeline__role">Data QA Engineer (AI-Augmented)</span>
-                </div>
-                <span class="timeline__date">Mar 2026 — Present</span>
-              </div>
-              <p class="timeline__project">Project: <strong>Cycle</strong> — large-scale data migration</p>
-              <ul class="timeline__duties">
-                <li>Designed & built (AI-assisted) a Python data-mapping tool that turns ~a week of manual mapping investigation into a 5-minute report</li>
-                <li>Recreated the full mapping & transformation logic from scratch for a 200+ table legacy-to-new migration</li>
-                <li>Source-vs-target validation: data accuracy, completeness, discrepancy investigation against business rules</li>
-                <li>AI-assisted schema-mapping analysis & SQL validation — kept reviewable and reproducible</li>
-              </ul>
-            </div>
-          </div>
+<div class="hero__visual">
+<div class="terminal">
+<div class="terminal__header">
+<span class="terminal__dot terminal__dot--red"></span>
+<span class="terminal__dot terminal__dot--yellow"></span>
+<span class="terminal__dot terminal__dot--green"></span>
+<span class="terminal__title">agent_eval.sh</span>
+</div>
+<div class="terminal__body">
+<p><span class="terminal__prompt">$</span> validating agent output...</p>
+<p class="terminal__success">✓ 826 business rules inferred by agent</p>
+<p class="terminal__success">✓ each rule confirmed by 2+ sources</p>
+<p class="terminal__success">✓ 12,071 data checks generated</p>
+<p class="terminal__success">✓ PHI/PII masked, prompts not stored</p>
+<p><span class="terminal__prompt">$</span> <span class="terminal__cursor">_</span></p>
+</div>
+</div>
+</div>
+</div>
 
-          <div class="timeline__item">
-            <div class="timeline__marker"></div>
-            <div class="timeline__content">
-              <div class="timeline__header">
-                <div>
-                  <span class="timeline__company">AllstarsIT</span>
-                  <span class="timeline__role">QA Engineer</span>
-                </div>
-                <span class="timeline__date">May 2024 — Dec 2025</span>
-              </div>
-              <p class="timeline__project">Project: <strong>Morphisec</strong> — Israeli cybersecurity platform</p>
-              <ul class="timeline__duties">
-                <li>Validating system stability across multiple databases and complex data flows</li>
-                <li>Security-oriented testing: identifying vulnerabilities, validating protection mechanisms</li>
-                <li>API testing with Postman, automated flows, and feature flag verification</li>
-                <li>Root-cause analysis and log verification across environments</li>
-              </ul>
-            </div>
-          </div>
-          
-          <div class="timeline__item">
-            <div class="timeline__marker"></div>
-            <div class="timeline__content">
-              <div class="timeline__header">
-                <div>
-                  <span class="timeline__company">TechMagic</span>
-                  <span class="timeline__role">QA Engineer</span>
-                </div>
-                <span class="timeline__date">Jan 2023 — May 2024</span>
-              </div>
-              <p class="timeline__project">Project: <strong>Huckleberry</strong> — multi-platform product (iOS, Android, Web)</p>
-              <ul class="timeline__duties">
-                <li>Backend testing: API integrations, data consistency, server logic validation</li>
-                <li>Tested major integrations — Stripe (payments), Amplitude (analytics) — and the migration to a serverless backend</li>
-                <li>Verified behavior under feature flags across environments; collaborated with a USA-based product team</li>
-                <li>Ensured release quality for thousands of end users</li>
-              </ul>
-            </div>
-          </div>
-          
-          <div class="timeline__item">
-            <div class="timeline__marker"></div>
-            <div class="timeline__content">
-              <div class="timeline__header">
-                <div>
-                  <span class="timeline__company">Cosm.care</span>
-                  <span class="timeline__role">QA Engineer</span>
-                </div>
-                <span class="timeline__date">May 2022 — Dec 2022</span>
-              </div>
-              <p class="timeline__project">Canadian digital healthcare platform</p>
-              <ul class="timeline__duties">
-                <li>Compliance testing for governmental healthcare regulations</li>
-                <li>Data security and user privacy validation</li>
-              </ul>
-            </div>
-          </div>
-          
-          <div class="timeline__item">
-            <div class="timeline__marker"></div>
-            <div class="timeline__content">
-              <div class="timeline__header">
-                <div>
-                  <span class="timeline__company">Stepico Games</span>
-                  <span class="timeline__role">QA Engineer</span>
-                </div>
-                <span class="timeline__date">Feb 2020 — May 2022</span>
-              </div>
-              <p class="timeline__project">Early-career foundation across multiple product types</p>
-              <ul class="timeline__duties">
-                <li>Full QA cycle ownership: from requirement analysis to release validation</li>
-                <li>Test design, defect reporting, regression and release testing</li>
-                <li>Built core QA discipline: clear documentation and dev/product communication</li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
+<div class="hero__flag">
+<a href="https://savelife.in.ua/en/" target="_blank" rel="noopener" title="Support Ukraine">
+<img src="flag.png" alt="Ukraine" height="80">
+</a>
+</div>
+</section>
 
-    <!-- Projects Section -->
-    <section id="projects" class="section section--alt">
-      <div class="container">
-        <h2 class="section__label section__label--center">Projects</h2>
-        <h3 class="section__title">Products I've Helped Ship</h3>
-        
-        <div class="projects-grid">
-          <div class="project-card project-card--compact">
-            <div class="project-card__visual">
-              <img src="images.jpeg" alt="Morphisec" class="project-card__image">
-            </div>
-            <div class="project-card__content">
-              <div class="project-card__badge">Cybersecurity</div>
-              <h4 class="project-card__title">Morphisec</h4>
-              <p class="project-card__description">
-                Enterprise endpoint protection platform using Moving Target Defense technology. 
-                Stops zero-day threats, fileless attacks, and ransomware before they execute.
-              </p>
-              <p class="project-card__role">
-                <strong>My focus:</strong> System integrity validation, security testing, database consistency, 
-                and log verification across complex workflows.
-              </p>
-              <div class="project-card__tags">
-                <span>Security Testing</span>
-                <span>API Validation</span>
-                <span>Database Testing</span>
-              </div>
-              <a href="https://www.morphisec.com/" target="_blank" rel="noopener" class="project-card__link">
-                Visit Morphisec →
-              </a>
-            </div>
-          </div>
-          
-          <div class="project-card project-card--compact">
-            <div class="project-card__visual">
-              <img src="H1.jpg" alt="Huckleberry" class="project-card__image">
-            </div>
-            <div class="project-card__content">
-              <div class="project-card__badge">HealthTech</div>
-              <h4 class="project-card__title">Huckleberry</h4>
-              <p class="project-card__description">
-                Sleep tracking app helping thousands of parents worldwide. Available on iOS, Android, and Web — 
-                like having a sleep consultant in your pocket.
-              </p>
-              <p class="project-card__role">
-                <strong>My focus:</strong> Backend testing, API integrations, data consistency validation, 
-                and ensuring release quality for thousands of end users.
-              </p>
-              <div class="project-card__tags">
-                <span>Backend Testing</span>
-                <span>Cross-platform</span>
-                <span>API Testing</span>
-              </div>
-              <a href="https://huckleberrycare.com/" target="_blank" rel="noopener" class="project-card__link">
-                Visit Huckleberry →
-              </a>
-            </div>
-          </div>
-        </div>
+<!-- About Section -->
+<section id="about" class="section">
+<div class="container">
+<div class="about">
+<div class="about__image">
+<div class="about__image-wrapper">
+<img src="avatar.jpg" alt="Uliana-Olena Sakhno">
+<div class="about__image-border"></div>
+</div>
+</div>
 
-        <h3 class="section__title" style="margin-top: var(--space-2xl)">Things I've Built</h3>
+<div class="about__content">
+<h2 class="section__label">About Me</h2>
+<h3 class="about__title">Building AI is easy. Making it trustworthy is the work.</h3>
+<p>
+I'm one of three engineers on the AI team of a client project with 84 engineers and a
+20-year-old codebase. Our platform serves about 100 users through a LiteLLM gateway, with
+Claude on Amazon Bedrock and Claude subscriptions.
+</p>
+<p>
+My part: agents that analyse legacy data and propose business rules, a validation step that
+cross-checks every rule against Jira, Confluence and the code, PHI/PII guardrails for HIPAA,
+and helping people adopt AI without fearing they are being watched.
+</p>
+<p>
+I came here from QA — backend, data and security testing since 2020. I design the logic,
+let coding agents implement it, and review the code and results myself. Knowing where the
+model is wrong is the actual engineering.
+</p>
+<div class="about__stats">
+<div class="stat">
+<span class="stat__number">6+</span>
+<span class="stat__label">Years in QA</span>
+</div>
+<div class="stat">
+<span class="stat__number">826</span>
+<span class="stat__label">Rules Inferred by Agents</span>
+</div>
+<div class="stat">
+<span class="stat__number">12K+</span>
+<span class="stat__label">Data Checks Generated</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
 
-        <div class="projects-grid">
-          <div class="project-card project-card--compact">
-            <div class="project-card__content">
-              <div class="project-card__badge">Built · Python</div>
-              <h4 class="project-card__title">🛰️ QA Context Radar</h4>
-              <p class="project-card__description">
-                An AI-assisted tool that scores a product ticket's <strong>readiness for testing</strong>
-                <em>before</em> test design — two deterministic signals (Completeness vs Substance) plus an AI brief.
-              </p>
-              <p class="project-card__role">
-                <strong>More than an AI wrapper:</strong> an eval suite that measures where the AI analysis
-                is grounded vs invented — I tested my own AI.
-              </p>
-              <div class="project-card__tags">
-                <span>Python</span>
-                <span>Streamlit</span>
-                <span>Claude API</span>
-                <span>Eval / Testing</span>
-              </div>
-              <a href="https://github.com/VelenShell/qa-context-radar" target="_blank" rel="noopener" class="project-card__link">
-                View on GitHub →
-              </a>
-            </div>
-          </div>
+<!-- Skills Section -->
+<section id="skills" class="section section--alt">
+<div class="container">
+<h2 class="section__label section__label--center">Skills & Tools</h2>
+<h3 class="section__title">My Toolkit</h3>
 
-          <div class="project-card project-card--compact">
-            <div class="project-card__content">
-              <div class="project-card__badge">Built · Python</div>
-              <h4 class="project-card__title">📡 QA Job Radar</h4>
-              <p class="project-card__description">
-                A scheduled scraper that collects fresh QA postings, scores each one against my profile
-                with an LLM, and sends a filtered daily digest of only the relevant ones.
-              </p>
-              <p class="project-card__role">
-                <strong>Why:</strong> to make my own job hunt less manual — and as a working portfolio piece
-                that shows I automate my own workflows.
-              </p>
-              <div class="project-card__tags">
-                <span>Python</span>
-                <span>GitHub Actions</span>
-                <span>Claude API</span>
-                <span>Web Scraping</span>
-              </div>
-              <span class="project-card__link" style="color: var(--text-secondary); cursor: default;">
-                Code walkthrough on request
-              </span>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
+<div class="skills-grid">
+<div class="skill-card">
+<div class="skill-card__icon">🤖</div>
+<h4 class="skill-card__title">LLM & Agents</h4>
+<ul class="skill-card__list">
+<li>Claude on Amazon Bedrock</li>
+<li>LiteLLM Gateway</li>
+<li>MCP & UTCP</li>
+<li>Claude Code & Desktop Rollout</li>
+<li>Agentic Workflows</li>
+</ul>
+</div>
 
-    <!-- Contact Section -->
-    <section id="contact" class="section section--contact">
-      <div class="container">
-        <div class="contact">
-          <h2 class="section__label section__label--center">Get In Touch</h2>
-          <h3 class="contact__title">Let's Build Something Reliable</h3>
-          <p class="contact__description">
-            Looking for a QA engineer who treats your product like it's their own? 
-            I'm currently exploring new opportunities and would love to hear about your project.
-          </p>
-          
-          <a href="mailto:sakhno.qa@gmail.com" class="btn btn--primary btn--large">
-            Say Hello
-          </a>
-          
-          <div class="contact__links">
-            <a href="mailto:sakhno.qa@gmail.com" class="contact__link">
-              <span class="contact__link-icon">✉</span>
-              sakhno.qa@gmail.com
-            </a>
-            <a href="tel:+380974402205" class="contact__link">
-              <span class="contact__link-icon">☎</span>
-              +38 (097) 440-22-05
-            </a>
-            <a href="https://linkedin.com/in/ulianasakhnoqa" target="_blank" rel="noopener" class="contact__link">
-              <span class="contact__link-icon">in</span>
-              LinkedIn
-            </a>
-            <a href="https://github.com/VelenShell" target="_blank" rel="noopener" class="contact__link">
-              <span class="contact__link-icon">&lt;/&gt;</span>
-              GitHub
-            </a>
-          </div>
-        </div>
-      </div>
-    </section>
-  </main>
+<div class="skill-card">
+<div class="skill-card__icon">🛡️</div>
+<h4 class="skill-card__title">Evals & Guardrails</h4>
+<ul class="skill-card__list">
+<li>Microsoft Presidio (PHI/PII)</li>
+<li>Golden Sets & Evals</li>
+<li>Multi-Source Validation</li>
+<li>False-Positive Tuning</li>
+<li>HIPAA-Aware Design</li>
+</ul>
+</div>
 
-  <footer class="footer">
-    <p>Designed & Built by Uliana-Olena Sakhno © 2026</p>
-  </footer>
+<div class="skill-card">
+<div class="skill-card__icon">🗄️</div>
+<h4 class="skill-card__title">Data Quality</h4>
+<ul class="skill-card__list">
+<li>SQL (strong)</li>
+<li>PostgreSQL & SQL Server</li>
+<li>BigQuery & Snowflake</li>
+<li>MongoDB, Redis, Elasticsearch</li>
+<li>Migration Reconciliation</li>
+</ul>
+</div>
+
+<div class="skill-card">
+<div class="skill-card__icon">🔌</div>
+<h4 class="skill-card__title">Testing</h4>
+<ul class="skill-card__list">
+<li>API Testing (Postman, Flows)</li>
+<li>Integration & Backend</li>
+<li>Security & Compliance</li>
+<li>Root-Cause Analysis</li>
+</ul>
+</div>
+</div>
+
+<div class="skills-tags">
+<span class="tag tag--highlight">Python</span>
+<span class="tag tag--highlight">TypeScript</span>
+<span class="tag tag--highlight">SQL</span>
+<span class="tag">Claude Code</span>
+<span class="tag">GitHub Actions</span>
+<span class="tag">Streamlit</span>
+<span class="tag">Jira</span>
+<span class="tag">Confluence</span>
+<span class="tag tag--highlight">English: Fluent</span>
+<span class="tag tag--highlight">Ukrainian: Native</span>
+</div>
+</div>
+</section>
+
+<!-- Experience Section -->
+<section id="experience" class="section">
+<div class="container">
+<h2 class="section__label section__label--center">Experience</h2>
+<h3 class="section__title">Where I've Made Impact</h3>
+
+<div class="timeline">
+<div class="timeline__item">
+<div class="timeline__marker"></div>
+<div class="timeline__content">
+<div class="timeline__header">
+<div>
+<span class="timeline__company">Agiliway</span>
+<span class="timeline__role">AI Engineer (Senior QA Engineer)</span>
+</div>
+<span class="timeline__date">Mar 2026 — Present</span>
+</div>
+<p class="timeline__project">AI team of 3 on a client project with 84 engineers · Claude, LiteLLM, Presidio</p>
+<ul class="timeline__duties">
+<li>Agentic migration pipeline that inferred 826 undocumented business rules from a 20-year-old database; each rule needs confirmation from 2+ of Jira, Confluence and the code, and 14 were rejected in review</li>
+<li>12,071 data checks for the first 4 of 16 domains, used to merge two legacy databases (375 and 582 tables) into one clean dataset</li>
+<li>Presidio PHI/PII guardrails for HIPAA, tested with synthetic data and tuned against over-masking; prompt storage off by design</li>
+<li>Agent that drafts DTOs from legacy schema changes — accepted without edits so far</li>
+<li>Gateway rollout to about 100 users, including Claude Code and Claude Desktop; building an API test-automation framework for QA agents</li>
+</ul>
+</div>
+</div>
+
+<div class="timeline__item">
+<div class="timeline__marker"></div>
+<div class="timeline__content">
+<div class="timeline__header">
+<div>
+<span class="timeline__company">AllstarsIT</span>
+<span class="timeline__role">QA Engineer, Backend & Data</span>
+</div>
+<span class="timeline__date">May 2024 — Dec 2025</span>
+</div>
+<p class="timeline__project">Project: <strong>Morphisec</strong> — endpoint protection platform</p>
+<ul class="timeline__duties">
+<li>Validated event ingestion and data consistency across Redis, Snowflake, PostgreSQL and Elasticsearch</li>
+<li>Security-oriented testing: surfaced vulnerabilities, validated protection mechanisms</li>
+<li>Postman Flow that cut test-account setup from up to an hour to about 5 minutes</li>
+<li>Root-cause analysis through logs and multi-database queries</li>
+</ul>
+</div>
+</div>
+
+<div class="timeline__item">
+<div class="timeline__marker"></div>
+<div class="timeline__content">
+<div class="timeline__header">
+<div>
+<span class="timeline__company">TechMagic</span>
+<span class="timeline__role">QA Engineer, Backend & Integration</span>
+</div>
+<span class="timeline__date">Jan 2023 — May 2024</span>
+</div>
+<p class="timeline__project">Project: <strong>Huckleberry</strong> — baby-care app used by 5M+ families</p>
+<ul class="timeline__duties">
+<li>Backend testing: API integrations, data consistency, server logic</li>
+<li>Tested Stripe and Amplitude integrations and the migration to a serverless backend</li>
+<li>Proved the chosen A/B-testing tool reported unreliable results; after a call with the vendor the team switched tools</li>
+</ul>
+</div>
+</div>
+
+<div class="timeline__item">
+<div class="timeline__marker"></div>
+<div class="timeline__content">
+<div class="timeline__header">
+<div>
+<span class="timeline__company">Cosm.care</span>
+<span class="timeline__role">QA Engineer</span>
+</div>
+<span class="timeline__date">May 2022 — Dec 2022</span>
+</div>
+<p class="timeline__project">Canadian digital healthcare platform</p>
+<ul class="timeline__duties">
+<li>Compliance testing against healthcare regulations</li>
+<li>Data security and patient privacy validation</li>
+</ul>
+</div>
+</div>
+
+<div class="timeline__item">
+<div class="timeline__marker"></div>
+<div class="timeline__content">
+<div class="timeline__header">
+<div>
+<span class="timeline__company">Stepico Games</span>
+<span class="timeline__role">QA Engineer</span>
+</div>
+<span class="timeline__date">Feb 2020 — May 2022</span>
+</div>
+<p class="timeline__project">Web, Windows desktop and mobile games</p>
+<ul class="timeline__duties">
+<li>Full QA cycle: requirements analysis, test design, regression and release validation</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+<!-- Projects Section -->
+<section id="projects" class="section section--alt">
+<div class="container">
+<h2 class="section__label section__label--center">Projects</h2>
+<h3 class="section__title">Things I've Built</h3>
+
+<div class="projects-grid">
+<div class="project-card project-card--compact">
+<div class="project-card__content">
+<div class="project-card__badge">Built · Python</div>
+<h4 class="project-card__title">🛰️ QA Context Radar</h4>
+<p class="project-card__description">
+An AI-assisted tool that scores a product ticket's <strong>readiness for testing</strong>
+<em>before</em> test design — two deterministic signals (Completeness vs Substance) plus an AI brief.
+</p>
+<p class="project-card__role">
+<strong>More than an AI wrapper:</strong> a golden-set eval suite that measures where the AI
+is grounded and where it invents.
+</p>
+<div class="project-card__tags">
+<span>Python</span>
+<span>Streamlit</span>
+<span>Claude API</span>
+<span>Evals</span>
+</div>
+<a href="https://github.com/VelenShell/qa-context-radar" target="_blank" rel="noopener" class="project-card__link">
+View on GitHub →
+</a>
+</div>
+</div>
+
+<div class="project-card project-card--compact">
+<div class="project-card__content">
+<div class="project-card__badge">Built · Python</div>
+<h4 class="project-card__title">📡 Joblin</h4>
+<p class="project-card__description">
+An LLM pipeline that finds fresh roles twice a day, scores them against my profile and drafts
+personal outreach — the sending stays human.
+</p>
+<p class="project-card__role">
+<strong>Guardrails from real failures:</strong> it checks each company's hiring market, bans
+overclaiming phrases, and flags unknown data instead of guessing.
+</p>
+<div class="project-card__tags">
+<span>Python</span>
+<span>GitHub Actions</span>
+<span>Claude API</span>
+<span>Guardrails</span>
+</div>
+<span class="project-card__link" style="color: var(--text-secondary); cursor: default;">
+Code walkthrough on request
+</span>
+</div>
+</div>
+
+<div class="project-card project-card--compact">
+<div class="project-card__content">
+<div class="project-card__badge">Built · Data</div>
+<h4 class="project-card__title">🏎️ F1 2026 Forecast</h4>
+<p class="project-card__description">
+Forecasting the 2026 F1 drivers' championship: OpenF1 API to PostgreSQL (75M rows),
+clustered hypothesis testing and a Monte Carlo simulation.
+</p>
+<div class="project-card__tags">
+<span>Python</span>
+<span>PostgreSQL</span>
+<span>scikit-learn</span>
+<span>ETL</span>
+</div>
+<a href="https://github.com/VelenShell/f1-2026-analysis" target="_blank" rel="noopener" class="project-card__link">
+View on GitHub →
+</a>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+<!-- Contact Section -->
+<section id="contact" class="section section--contact">
+<div class="container">
+<div class="contact">
+<h2 class="section__label section__label--center">Get In Touch</h2>
+<h3 class="contact__title">Let's Make Your AI Trustworthy</h3>
+<p class="contact__description">
+Open to remote roles with international teams (B2B contract): AI Quality Engineer,
+LLM Evaluation, AI Guardrails &amp; Safety.
+</p>
+
+<a href="mailto:sakhno.qa@gmail.com" class="btn btn--primary btn--large">
+Say Hello
+</a>
+
+<div class="contact__links">
+<a href="mailto:sakhno.qa@gmail.com" class="contact__link">
+<span class="contact__link-icon">✉</span>
+sakhno.qa@gmail.com
+</a>
+<a href="tel:+380974402205" class="contact__link">
+<span class="contact__link-icon">☎</span>
++38 (097) 440-22-05
+</a>
+<a href="https://linkedin.com/in/ulianasakhnoqa" target="_blank" rel="noopener" class="contact__link">
+<span class="contact__link-icon">in</span>
+LinkedIn
+</a>
+<a href="https://github.com/VelenShell" target="_blank" rel="noopener" class="contact__link">
+<span class="contact__link-icon">&lt;/&gt;</span>
+GitHub
+</a>
+</div>
+</div>
+</div>
+</section>
+</main>
+
+<footer class="footer">
+<p>Designed & Built by Uliana-Olena Sakhno © 2026</p>
+</footer>
 </body>
 </html>
